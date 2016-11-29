@@ -1,0 +1,65 @@
+body{
+  background-color: white;
+}
+.content {
+  background-color: white;
+  
+  width: 520px;
+  height: 560px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #888888;  
+  
+  font-size: 20px;
+  font-family: 'Black Ops One', cursive;
+}
+.display {
+  height: 42px;
+  font-size: 30px;
+  background-color: #efefc1;
+  
+  margin: 50px 10px 0px 10px;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 1px 1px 0px 1px;
+  
+  box-shadow: 0px 0px 5px #888888;
+}
+.display2 {
+  height: 24px;
+  font-size: 18px;
+  color: #aaa;
+  background-color: #efefc1;
+  
+  margin: 0px 10px 25px 10px;
+  padding-right: 5px;
+  border-color: black;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  
+  box-shadow: 0px 0px 5px #888888;
+}
+.buttons {
+width: 300px;
+position: absolute;
+left: 50%;
+margin-left: -150px;
+}
+.bttn {
+  font-size: 30px;
+  display: inline-block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  padding: 0 0 0 0;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.bttn.red {
+  background-color: #F54D45;
+}
